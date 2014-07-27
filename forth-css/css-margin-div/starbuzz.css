@@ -1,0 +1,85 @@
+body { /*we can have the style designed in this file, including every key-word, etc. tables', p's*/
+	font-size:	small;
+	font-family:	Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.6em; 			/*行距设置*/
+}
+
+
+h1, h2 {
+	color: #007e7e;
+}
+h1 {
+	font-size:150%;        /*according to the body font-size*/
+}
+h2{
+	font-size: 130%l
+}
+
+#elixir {
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px;
+	padding-right: 20px;
+	padding-left:20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 1;
+	
+	float: right;
+}
+
+a:link {
+	color: #007e7e;
+	text-decoration: none;
+	boder-bottom: thin dotted #b76666;
+}
+
+a:visited {
+	color: #675c47;
+	text-decoration: none;
+	border-bottom: thin dotted #675c47;
+}
+
+a:hover: {
+	background: #f88396;
+	color: blue;
+}
+
+#guarantee {
+	line-height: 1.9em;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #444444;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #a7cece;
+	padding: 25px;
+	padding-left: 200px;
+	margin: 30px;
+	margin-right: 300px;
+	background-image: url(pic/b.gif);
+	background-repeat: no-repeat;
+	backgound-position: top left;
+}
+
+.cd{
+	font-style: italic;
+}
+
+.auther{
+	font-weight: bold;
+}
+
+#footer{
+	background-color: #675c47;
+	color: red;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+	font-size: 90%;
+	
+	clear: right; /*防止被遮挡*/
+}
